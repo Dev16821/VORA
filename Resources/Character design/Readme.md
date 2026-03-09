@@ -9,8 +9,9 @@ Each avatar was created in **VRoid Studio** and exported in **VRM format** for i
 
 ### IRA
 
+
 <p align="center">
-  <img src="images/ira.png" alt="IRA Character" width="400"/>
+  <img src="../../images/ira.png" alt="IRA Character" width="400"/>
 </p>
 
 **IRA** is a humanoid avatar designed as part of the VORA digital companion system.
@@ -25,7 +26,7 @@ Each avatar was created in **VRoid Studio** and exported in **VRM format** for i
 ### AIRIN
 
 <p align="center">
-  <img src="images/airin.png" alt="AIRIN Character" width="400"/>
+  <img src="../../images/airin.png" alt="AIRIN Character" width="400"/>
 </p>
 
 **AIRIN** is another avatar created for the VORA environment.
@@ -45,5 +46,3 @@ Each avatar was created in **VRoid Studio** and exported in **VRM format** for i
 | `.vroid` | Project file used by **VRoid Studio** for creating and editing avatars. |
 
 ---
-
-## Repository Structure
