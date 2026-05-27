@@ -1,0 +1,19 @@
+API Key: AIzaSyAif3...
+
+Testing: gemini-2.0-flash
+FAILED: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, pleas
+Status: 429
+
+Testing: gemini-1.5-flash-latest
+FAILED: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [404 Not Found] models/gemini-1.5-flash-latest is not f
+Status: 404
+
+Testing: gemini-1.5-flash
+FAILED: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API v
+Status: 404
+
+Testing: gemini-pro
+FAILED: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1bet
+Status: 404
+
+NO MODEL WORKED - Check your API key.
