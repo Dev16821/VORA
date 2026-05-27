@@ -99,16 +99,3 @@ def get_current_model():
     return MODEL_NAME
 
 
-if __name__ == "__main__":
-    print("VORA Ollama Connector Test")
-    print("Type 'exit' to stop.\n")
-
-    while True:
-        user_input = input("You > ")
-
-        if user_input.lower().strip() == "exit":
-            print("VORA model connector stopped.")
-            break
-
-        answer = ask_ollama(user_input)
-        print(f"VORA > {answer}\n")

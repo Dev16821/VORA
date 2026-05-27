@@ -2,10 +2,14 @@ from system.app_open import open_app
 from system.website_open import open_website
 from memory.website_memory import save_website
 
+# Command router to handle user commands
+# This function takes a command string, parses it, and executes the appropriate action.
+
 
 def handle_command(command):
     command = command.lower().strip()
 
+    # 
     if command.startswith("open app "):
         app_name = command.replace("open app ", "", 1)
         open_app(app_name)
